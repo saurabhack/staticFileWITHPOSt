@@ -1,0 +1,74 @@
+.login{
+    text-align: center;
+    position: absolute;
+    bottom:800px;
+    left:920px;
+}
+.visual{
+    position:absolute;
+    left:720px;
+    bottom:300px;
+    border-color:black;
+    border-width: 120px;
+    background-color: white;
+    width:25%;
+    height:12cm;
+}
+body{
+    background-color: green;
+}
+.first{
+    width: 60%;
+    position: absolute;
+    left:40px;
+    border-radius:5px;
+    height: 1cm;
+    border-color: aqua;
+}
+.visa{
+    position:absolute;
+    left:90px;
+}
+.second{
+    width: 60%;
+    position: absolute;
+    left:40px;
+    border-radius:5px;
+    height: 1cm;
+    border-color: aqua;
+}
+.third{
+    width: 60%;
+    position: absolute;
+    left:40px;
+    border-radius:5px;
+    height: 1cm;
+    border-color: aqua;
+}
+.fourth{
+    width: 60%;
+    position: absolute;
+    left:40px;
+    border-radius:5px;
+    height: 1cm;
+    border-color: aqua;
+}
+.visa3{
+    position:absolute;
+    left:90px;
+}
+.visa2{
+    position:absolute;
+    left:90px;
+}
+.visa1{
+    position:absolute;
+    left:90px;
+}
+button{
+position: absolute;
+left:40px;
+width:60%;
+height:30px;
+background-color: green;
+}

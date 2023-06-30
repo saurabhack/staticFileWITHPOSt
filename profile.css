@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+.pretty{
+    position: absolute;
+    left:500px;
+    width: 50%;
+    background-color: white;
+
+}
+body{
+    background-color: green;
+}

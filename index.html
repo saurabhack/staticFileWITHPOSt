@@ -1,0 +1,45 @@
+{%load static%}
+<html>
+  <head>
+<link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+
+<h2 class="login">login</h2>
+<br>
+<br>
+<form class="visual" method="post" action="profile">
+  {%csrf_token%}
+  <br>
+  <br>
+<label class="visa">enter your first name</label>
+<br>
+<br>
+<input class="first" type="text" name="text2" >
+<br>
+<br>
+<br>
+<label class="visa1">enter your last name</label>
+<br>
+<br>
+<input  class="second" type="text" name="text3" >
+<br>
+<br>
+<br>
+<label class="visa2">enter your password</label>
+<br>
+<br>
+<input class="third" type="password" name="text4" >
+<br>
+<br>
+<br>
+<label class="visa3">re-enter your password</label>
+<br>
+<input class="fourth" type="password" name="text5" >
+<br>
+<br>
+<br>
+<button>login</button>
+</form>
+</body>
+</html>
